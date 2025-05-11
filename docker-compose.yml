@@ -1,0 +1,177 @@
+version: '3.8'
+
+services:
+  # MongoDB
+  mongodb:
+    image: mongo:5.0
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - hms-network
+
+  # MySQL for Chat Service
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=chat_service
+      - MYSQL_USER=chat_user
+      - MYSQL_PASSWORD=chat_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - hms-network
+  # API Gateway
+  api-gateway:
+    build:
+      context: ./api-gateway
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=development
+      - PORT=4000
+      - AUTH_SERVICE_URL=http://auth-service:3001
+      - MAIN_SERVICE_URL=http://server:5000
+      - CHAT_SERVICE_URL=http://chat-service:5001
+      - SCHEDULE_SERVICE_URL=http://schedule-service:5002
+      - CLIENT_URL=http://localhost:3000
+    depends_on:
+      - auth-service
+      - chat-service
+      - server
+    networks:
+      - hms-network
+
+  # Auth Service
+  auth-service:
+    build:
+      context: ./auth-service
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      - MONGODB_URI=${MONGODB_URI}
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_EXPIRE=${JWT_EXPIRE}
+      - JWT_COOKIE_EXPIRE=${JWT_COOKIE_EXPIRE}
+      - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+      - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+      - CLIENT_URL=${CLIENT_URL}
+      - USE_ETHEREAL=${USE_ETHEREAL}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT}
+      - SMTP_EMAIL=${SMTP_EMAIL}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - FROM_NAME=${FROM_NAME}
+      - FROM_EMAIL=${FROM_EMAIL}
+    networks:
+      - hms-network
+    restart: unless-stopped
+
+  # Chat Service
+  chat-service:
+    build:
+      context: ./chat-service
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      - NODE_ENV=development
+      - PORT=5001
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_NAME=chat_service
+      - DB_USER=chat_user
+      - DB_PASSWORD=chat_password
+      - DB_DIALECT=mysql
+      - JWT_SECRET=${JWT_SECRET}
+    depends_on:
+      - mysql
+    networks:
+      - hms-network
+    restart: unless-stopped
+
+  # Main Server
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=development
+      - PORT=5000
+      - MONGODB_URI=${MONGODB_URI}
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_EXPIRE=${JWT_EXPIRE}
+      - JWT_COOKIE_EXPIRE=${JWT_COOKIE_EXPIRE}
+      - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+      - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT}
+      - SMTP_EMAIL=${SMTP_EMAIL}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - FROM_NAME=${FROM_NAME}
+      - FROM_EMAIL=${FROM_EMAIL}
+      - CLIENT_URL=${CLIENT_URL}
+    networks:
+      - hms-network
+    restart: unless-stopped
+
+  # Client
+  client:
+    build:
+      context: ./Client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - REACT_APP_API_URL=http://localhost:5000/api
+      - REACT_APP_API_GATEWAY_URL=http://localhost:4000
+      - REACT_APP_CHAT_SERVICE_URL=http://localhost:5001
+      - REACT_APP_AUTH_SERVICE_URL=http://localhost:3001
+      - REACT_APP_GOOGLE_MAPS_API_KEY=${REACT_APP_GOOGLE_MAPS_API_KEY}
+      - REACT_APP_GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+    depends_on:
+      - api-gateway
+    networks:
+      - hms-network
+    restart: unless-stopped
+
+  # Schedule Service
+  schedule-service:
+    build:
+      context: ./schedule-service
+      dockerfile: Dockerfile
+    ports:
+      - "5002:5002"
+    environment:
+      - NODE_ENV=development
+      - PORT=5002
+      - MONGODB_URI=${MONGODB_URI}
+      - JWT_SECRET=${JWT_SECRET}
+      - PYTHONPATH=/app
+    volumes:
+      - ./schedule-service:/app
+    networks:
+      - hms-network
+    restart: unless-stopped
+
+networks:
+  hms-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+  mysql_data:
+
