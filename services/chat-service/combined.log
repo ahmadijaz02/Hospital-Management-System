@@ -1,0 +1,491 @@
+2025-05-10 16:57:59,055 INFO [main] c.h.c.ChatServiceApplication [StartupInfoLogger.java:55] Starting ChatServiceApplication using Java 22 on DESKTOP-C6GLCCM with PID 23328 (D:\COURSE-PROJECT-WEEBB\fixed\Hospital Management System\services\chat-service\target\classes started by umar in D:\COURSE-PROJECT-WEEBB\fixed\Hospital Management System\services\chat-service)
+2025-05-10 16:57:59,060 INFO [main] c.h.c.ChatServiceApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2025-05-10 16:58:00,357 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-10 16:58:00,564 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 186 ms. Found 1 MongoDB repository interfaces.
+2025-05-10 16:58:01,522 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 5001 (http)
+2025-05-10 16:58:01,540 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-5001"]
+2025-05-10 16:58:01,544 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-10 16:58:01,545 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-10 16:58:01,769 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-10 16:58:01,770 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2637 ms
+2025-05-10 16:58:02,374 INFO [main] o.m.d.client [SLF4JLogger.java:71] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/22+36-2370"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='h17024133', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@6198e9b5]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.24ifcgp.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-c4vydv-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-10 16:58:02,383 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 16:58:02,462 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 16:58:02,466 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 16:58:04,030 WARN [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:88] 
+
+Using generated security password: 0efe063e-aa66-447a-8cca-cc855f797ca1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-05-10 16:58:04,096 INFO [cluster-rtt-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:1, serverValue:4340}] to ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,096 INFO [cluster-rtt-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:3, serverValue:4914}] to ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,096 INFO [cluster-rtt-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:2, serverValue:5083}] to ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,095 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:6, serverValue:4340}] to ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,096 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:4, serverValue:4914}] to ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,096 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:5, serverValue:5083}] to ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,105 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=856443900, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, topologyVersion=TopologyVersion{processId=681f2056c800f02f55d0e63b, counter=4}, lastWriteDate=Sat May 10 16:57:58 PKT 2025, lastUpdateTimeNanos=874987641143200}
+2025-05-10 16:58:04,105 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=856442800, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, topologyVersion=TopologyVersion{processId=681f232823134631ae0c6b3a, counter=3}, lastWriteDate=Sat May 10 16:57:58 PKT 2025, lastUpdateTimeNanos=874987641142600}
+2025-05-10 16:58:04,107 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=856443200, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000017, setVersion=1, topologyVersion=TopologyVersion{processId=681f22575fb403d0dbf1d2b9, counter=6}, lastWriteDate=Sat May 10 16:57:58 PKT 2025, lastUpdateTimeNanos=874987641142700}
+2025-05-10 16:58:04,125 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Setting max election id to 7fffffff0000000000000017 from replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,128 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Setting max set version to 1 from replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,129 INFO [cluster-ClusterId{value='681f3f4a1ada9e5cf4f86be0', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Discovered replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 16:58:04,340 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:55] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e3f324e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46cf8c07, org.springframework.security.web.context.SecurityContextPersistenceFilter@799f354a, org.springframework.security.web.header.HeaderWriterFilter@514377fc, org.springframework.security.web.csrf.CsrfFilter@54326e9, org.springframework.security.web.authentication.logout.LogoutFilter@35e74e08, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35c8be21, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4e48462d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@b56ec6c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@42c54bad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@159ac15f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ac48f05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abf6a99, org.springframework.security.web.session.SessionManagementFilter@7b5021d1, org.springframework.security.web.access.ExceptionTranslationFilter@4662752a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43c39321]
+2025-05-10 16:58:04,409 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-5001"]
+2025-05-10 16:58:04,433 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 5001 (http) with context path ''
+2025-05-10 16:58:04,447 INFO [main] c.h.c.ChatServiceApplication [StartupInfoLogger.java:61] Started ChatServiceApplication in 6.269 seconds (JVM running for 7.477)
+2025-05-10 16:58:54,020 INFO [http-nio-5001-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-10 16:58:54,020 INFO [http-nio-5001-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2025-05-10 16:58:54,023 INFO [http-nio-5001-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2025-05-10 17:13:39,526 INFO [main] c.h.c.ChatServiceApplication [StartupInfoLogger.java:55] Starting ChatServiceApplication using Java 22 on DESKTOP-C6GLCCM with PID 20636 (D:\COURSE-PROJECT-WEEBB\fixed\Hospital Management System\services\chat-service\target\classes started by umar in D:\COURSE-PROJECT-WEEBB\fixed\Hospital Management System\services\chat-service)
+2025-05-10 17:13:39,534 INFO [main] c.h.c.ChatServiceApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2025-05-10 17:13:40,594 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-10 17:13:40,659 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 56 ms. Found 1 MongoDB repository interfaces.
+2025-05-10 17:13:41,652 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 5001 (http)
+2025-05-10 17:13:41,682 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-5001"]
+2025-05-10 17:13:41,684 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-10 17:13:41,687 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-10 17:13:41,991 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-10 17:13:41,992 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2354 ms
+2025-05-10 17:13:42,665 INFO [main] o.m.d.client [SLF4JLogger.java:71] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/22+36-2370"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='h17024133', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@1fedf0a4]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.24ifcgp.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-c4vydv-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-10 17:13:42,682 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:13:42,725 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:13:42,729 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:13:43,747 INFO [main] c.c.s.SocketIOServer [SocketIOServer.java:146] Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2025-05-10 17:13:44,096 INFO [nioEventLoopGroup-2-1] c.c.s.SocketIOServer [SocketIOServer.java:171] SocketIO server started at port: 5002
+2025-05-10 17:13:44,301 INFO [cluster-rtt-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:6, serverValue:5367}] to ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,301 INFO [cluster-rtt-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:1, serverValue:5194}] to ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,301 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:2, serverValue:5194}] to ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,301 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:4, serverValue:5367}] to ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,301 INFO [cluster-rtt-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:3, serverValue:4610}] to ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,301 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:5, serverValue:4610}] to ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,304 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=955846600, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000017, setVersion=1, topologyVersion=TopologyVersion{processId=681f22575fb403d0dbf1d2b9, counter=6}, lastWriteDate=Sat May 10 17:13:42 PKT 2025, lastUpdateTimeNanos=875927847426600}
+2025-05-10 17:13:44,304 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=955889900, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, topologyVersion=TopologyVersion{processId=681f2056c800f02f55d0e63b, counter=4}, lastWriteDate=Sat May 10 17:13:42 PKT 2025, lastUpdateTimeNanos=875927847426400}
+2025-05-10 17:13:44,311 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=955861900, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, topologyVersion=TopologyVersion{processId=681f232823134631ae0c6b3a, counter=3}, lastWriteDate=Sat May 10 17:13:42 PKT 2025, lastUpdateTimeNanos=875927847429100}
+2025-05-10 17:13:44,319 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Setting max election id to 7fffffff0000000000000017 from replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,321 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Setting max set version to 1 from replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,324 INFO [cluster-ClusterId{value='681f42f6062f647fc1c81d32', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Discovered replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:13:44,671 WARN [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:88] 
+
+Using generated security password: af0d52ff-8b78-4e18-b56f-3206ab545b9b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-05-10 17:13:44,837 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:55] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5731caaf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59933644, org.springframework.security.web.context.SecurityContextPersistenceFilter@49e479da, org.springframework.security.web.header.HeaderWriterFilter@58739e5e, org.springframework.security.web.csrf.CsrfFilter@994544, org.springframework.security.web.authentication.logout.LogoutFilter@36f6d25c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5f45bc8e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1124910c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67e6eb52, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@59baf2c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30dd00b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4656fcc5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e8b8f0, org.springframework.security.web.session.SessionManagementFilter@2969a9a6, org.springframework.security.web.access.ExceptionTranslationFilter@6a51ae7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75ed7512]
+2025-05-10 17:13:44,886 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-5001"]
+2025-05-10 17:13:44,901 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 5001 (http) with context path ''
+2025-05-10 17:13:44,914 INFO [main] c.h.c.ChatServiceApplication [StartupInfoLogger.java:61] Started ChatServiceApplication in 6.294 seconds (JVM running for 7.101)
+2025-05-10 17:14:29,126 INFO [http-nio-5001-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-10 17:14:29,127 INFO [http-nio-5001-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2025-05-10 17:14:29,127 INFO [http-nio-5001-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2025-05-10 17:14:29,335 WARN [nioEventLoopGroup-3-1] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0x3c47fe71, L:/127.0.0.1:5002 - R:/127.0.0.1:57749]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 23 common frames omitted
+2025-05-10 17:14:29,372 WARN [nioEventLoopGroup-3-2] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0xf37e7518, L:/127.0.0.1:5002 - R:/127.0.0.1:57751]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:30,593 WARN [nioEventLoopGroup-3-3] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0x4e5813c7, L:/127.0.0.1:5002 - R:/127.0.0.1:57754]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:30,661 WARN [nioEventLoopGroup-3-4] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0xd641e417, L:/127.0.0.1:5002 - R:/127.0.0.1:57756]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:32,440 WARN [nioEventLoopGroup-3-5] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0xfd9a2792, L:/127.0.0.1:5002 - R:/127.0.0.1:57760]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:34,105 WARN [nioEventLoopGroup-3-6] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0x59df8dee, L:/127.0.0.1:5002 - R:/127.0.0.1:57764]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:37,956 WARN [nioEventLoopGroup-3-7] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0x74e2567e, L:/127.0.0.1:5002 - R:/127.0.0.1:57772]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:38,031 WARN [nioEventLoopGroup-3-8] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0xaf765a32, L:/127.0.0.1:5002 - R:/127.0.0.1:57774]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:43,776 WARN [nioEventLoopGroup-3-9] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0x7f99cdf8, L:/127.0.0.1:5002 - R:/127.0.0.1:57785]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:43,819 WARN [nioEventLoopGroup-3-10] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0x6bf76f45, L:/127.0.0.1:5002 - R:/127.0.0.1:57787]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:49,114 WARN [nioEventLoopGroup-3-11] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0xf0f361a1, L:/127.0.0.1:5002 - R:/127.0.0.1:57798]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:14:49,257 WARN [nioEventLoopGroup-3-12] i.n.c.ChannelInitializer [ChannelInitializer.java:97] Failed to initialize a channel. Closing: [id: 0x3443337b, L:/127.0.0.1:5002 - R:/127.0.0.1:57800]
+java.lang.NoClassDefFoundError: io/netty/handler/codec/http/HttpDecoderConfig
+	at com.corundumstudio.socketio.Configuration.getHttpDecoderConfig(Configuration.java:654)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.addSocketioHandlers(SocketIOChannelInitializer.java:170)
+	at com.corundumstudio.socketio.SocketIOChannelInitializer.initChannel(SocketIOChannelInitializer.java:145)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:176)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:145)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRegistered(DefaultChannelPipeline.java:1383)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:172)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:152)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:815)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:517)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.http.HttpDecoderConfig
+	... 23 common frames omitted
+2025-05-10 17:16:36,371 INFO [SpringApplicationShutdownHook] c.c.s.SocketIOServer [SocketIOServer.java:221] SocketIO server stopped
+2025-05-10 17:17:05,765 INFO [main] c.h.c.ChatServiceApplication [StartupInfoLogger.java:55] Starting ChatServiceApplication using Java 22 on DESKTOP-C6GLCCM with PID 25564 (D:\COURSE-PROJECT-WEEBB\fixed\Hospital Management System\services\chat-service\target\classes started by umar in D:\COURSE-PROJECT-WEEBB\fixed\Hospital Management System\services\chat-service)
+2025-05-10 17:17:05,772 INFO [main] c.h.c.ChatServiceApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2025-05-10 17:17:06,846 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-10 17:17:06,990 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 125 ms. Found 1 MongoDB repository interfaces.
+2025-05-10 17:17:08,013 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 5001 (http)
+2025-05-10 17:17:08,030 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-5001"]
+2025-05-10 17:17:08,031 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-10 17:17:08,033 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-10 17:17:08,246 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-10 17:17:08,246 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2359 ms
+2025-05-10 17:17:08,747 INFO [main] o.m.d.client [SLF4JLogger.java:71] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/22+36-2370"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='h17024133', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@42383cb0]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.24ifcgp.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-c4vydv-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-10 17:17:08,767 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:17:08,833 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:17:08,837 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:17:09,744 INFO [main] c.c.s.SocketIOServer [SocketIOServer.java:146] Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2025-05-10 17:17:10,040 INFO [nioEventLoopGroup-2-1] c.c.s.SocketIOServer [SocketIOServer.java:171] SocketIO server started at port: 5002
+2025-05-10 17:17:10,242 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:2, serverValue:5259}] to ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,242 INFO [cluster-rtt-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:3, serverValue:5435}] to ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,242 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:6, serverValue:4669}] to ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,242 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:1, serverValue:5434}] to ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,242 INFO [cluster-rtt-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:5, serverValue:5244}] to ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,242 INFO [cluster-rtt-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:4, serverValue:4669}] to ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,244 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=767603200, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000017, setVersion=1, topologyVersion=TopologyVersion{processId=681f22575fb403d0dbf1d2b9, counter=6}, lastWriteDate=Sat May 10 17:17:09 PKT 2025, lastUpdateTimeNanos=876133788009700}
+2025-05-10 17:17:10,245 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=764929800, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, topologyVersion=TopologyVersion{processId=681f232823134631ae0c6b3a, counter=3}, lastWriteDate=Sat May 10 17:17:09 PKT 2025, lastUpdateTimeNanos=876133788009200}
+2025-05-10 17:17:10,246 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=767607200, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, topologyVersion=TopologyVersion{processId=681f2056c800f02f55d0e63b, counter=4}, lastWriteDate=Sat May 10 17:17:09 PKT 2025, lastUpdateTimeNanos=876133788005100}
+2025-05-10 17:17:10,258 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Setting max election id to 7fffffff0000000000000017 from replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,261 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Setting max set version to 1 from replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,262 INFO [cluster-ClusterId{value='681f43c499307c03aae5b95f', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Discovered replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:17:10,595 WARN [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:88] 
+
+Using generated security password: df0fecd4-a616-40af-9188-752e4af9785f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-05-10 17:17:10,794 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:55] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ee77baf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@485deee1, org.springframework.security.web.context.SecurityContextPersistenceFilter@192b472d, org.springframework.security.web.header.HeaderWriterFilter@2e29f28e, org.springframework.security.web.csrf.CsrfFilter@9e62fb, org.springframework.security.web.authentication.logout.LogoutFilter@726a8729, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@382faf51, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7d64a960, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@25cde5bb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7bbdb220, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45b96e4c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8383a14, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38a96593, org.springframework.security.web.session.SessionManagementFilter@32b46831, org.springframework.security.web.access.ExceptionTranslationFilter@73b74615, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@18c820d2]
+2025-05-10 17:17:10,857 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-5001"]
+2025-05-10 17:17:10,884 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 5001 (http) with context path ''
+2025-05-10 17:17:10,896 INFO [main] c.h.c.ChatServiceApplication [StartupInfoLogger.java:61] Started ChatServiceApplication in 6.029 seconds (JVM running for 7.022)
+2025-05-10 17:17:30,268 INFO [http-nio-5001-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-10 17:17:30,269 INFO [http-nio-5001-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2025-05-10 17:17:30,270 INFO [http-nio-5001-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2025-05-10 17:22:42,562 INFO [SpringApplicationShutdownHook] c.c.s.SocketIOServer [SocketIOServer.java:221] SocketIO server stopped
+2025-05-10 17:22:52,734 INFO [main] c.h.c.ChatServiceApplication [StartupInfoLogger.java:55] Starting ChatServiceApplication using Java 22 on DESKTOP-C6GLCCM with PID 9156 (D:\COURSE-PROJECT-WEEBB\fixed\Hospital Management System\services\chat-service\target\classes started by umar in D:\COURSE-PROJECT-WEEBB\fixed\Hospital Management System\services\chat-service)
+2025-05-10 17:22:52,740 INFO [main] c.h.c.ChatServiceApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2025-05-10 17:22:53,760 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-10 17:22:53,861 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 82 ms. Found 1 MongoDB repository interfaces.
+2025-05-10 17:22:55,107 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 5001 (http)
+2025-05-10 17:22:55,132 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-5001"]
+2025-05-10 17:22:55,134 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-10 17:22:55,135 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-10 17:22:55,375 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-10 17:22:55,377 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2562 ms
+2025-05-10 17:22:55,927 INFO [main] o.m.d.client [SLF4JLogger.java:71] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/22+36-2370"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='h17024133', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@609e57da]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.24ifcgp.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-c4vydv-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-10 17:22:55,944 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:22:55,996 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:22:55,999 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-srv-cluster0.24ifcgp.mongodb.net] o.m.d.cluster [SLF4JLogger.java:71] Adding discovered server ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017 to client view of cluster
+2025-05-10 17:22:56,754 INFO [main] c.c.s.SocketIOServer [SocketIOServer.java:146] Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2025-05-10 17:22:57,046 INFO [nioEventLoopGroup-2-1] c.c.s.SocketIOServer [SocketIOServer.java:171] SocketIO server started at port: 5002
+2025-05-10 17:22:57,314 INFO [cluster-rtt-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:2, serverValue:5373}] to ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,314 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:6, serverValue:5543}] to ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,314 INFO [cluster-rtt-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:3, serverValue:4767}] to ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,314 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:1, serverValue:4767}] to ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,314 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:4, serverValue:5373}] to ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,314 INFO [cluster-rtt-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.connection [SLF4JLogger.java:71] Opened connection [connectionId{localValue:5, serverValue:5543}] to ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,318 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=704217800, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, topologyVersion=TopologyVersion{processId=681f2056c800f02f55d0e63b, counter=4}, lastWriteDate=Sat May 10 17:22:55 PKT 2025, lastUpdateTimeNanos=876480860069900}
+2025-05-10 17:22:57,319 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=704217000, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, topologyVersion=TopologyVersion{processId=681f232823134631ae0c6b3a, counter=3}, lastWriteDate=Sat May 10 17:22:55 PKT 2025, lastUpdateTimeNanos=876480860070200}
+2025-05-10 17:22:57,320 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Monitor thread successfully connected to server with description ServerDescription{address=ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=704216700, setName='atlas-c4vydv-shard-0', canonicalAddress=ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, hosts=[ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-00.24ifcgp.mongodb.net:27017, ac-xp9925r-shard-00-01.24ifcgp.mongodb.net:27017], passives=[], arbiters=[], primary='ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000017, setVersion=1, topologyVersion=TopologyVersion{processId=681f22575fb403d0dbf1d2b9, counter=6}, lastWriteDate=Sat May 10 17:22:55 PKT 2025, lastUpdateTimeNanos=876480860069900}
+2025-05-10 17:22:57,333 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Setting max election id to 7fffffff0000000000000017 from replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,335 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Setting max set version to 1 from replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,336 INFO [cluster-ClusterId{value='681f451f7d0abc6e249d2e83', description='null'}-ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017] o.m.d.cluster [SLF4JLogger.java:71] Discovered replica set primary ac-xp9925r-shard-00-02.24ifcgp.mongodb.net:27017
+2025-05-10 17:22:57,862 WARN [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:88] 
+
+Using generated security password: 2e885512-9dab-48e1-9813-0e638d8964ae
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-05-10 17:22:58,118 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:55] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a9bce99, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a0f87e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@542c65d9, org.springframework.security.web.header.HeaderWriterFilter@379f9555, org.springframework.security.web.csrf.CsrfFilter@38d525aa, org.springframework.security.web.authentication.logout.LogoutFilter@45e11627, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6d001fbe, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@16b64a03, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@243c4346, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2c678c7b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7dd45c93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@374b6e33, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2905b568, org.springframework.security.web.session.SessionManagementFilter@7d64a960, org.springframework.security.web.access.ExceptionTranslationFilter@4b691611, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52909a97]
+2025-05-10 17:22:58,199 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-5001"]
+2025-05-10 17:22:58,223 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 5001 (http) with context path ''
+2025-05-10 17:22:58,236 INFO [main] c.h.c.ChatServiceApplication [StartupInfoLogger.java:61] Started ChatServiceApplication in 6.162 seconds (JVM running for 6.911)
+2025-05-10 17:23:16,512 INFO [http-nio-5001-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-10 17:23:16,514 INFO [http-nio-5001-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2025-05-10 17:23:16,517 INFO [http-nio-5001-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 3 ms
