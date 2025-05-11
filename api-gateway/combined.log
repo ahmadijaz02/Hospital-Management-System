@@ -1,0 +1,1828 @@
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/medical-records/patient/681471f12d46004ebdf7f602 -> /api/medical-records/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/medical-records/patient/681471f12d46004ebdf7f602 -> /api/medical-records/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Friday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Friday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Thursday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Thursday"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Monday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Monday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Monday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Monday"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12"}
+{"level":"info","message":"POST /api/appointments/create -> /api/appointments/create"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"PATCH /api/appointments/681e4675351b020ad1b33648/status -> /api/appointments/681e4675351b020ad1b33648/status"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"POST /api/medical-records -> /api/medical-records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/681c9221461c93914686ad00 -> /api/prescriptions/681c9221461c93914686ad00"}
+{"level":"info","message":"POST /api/prescriptions -> /api/prescriptions"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/prescriptions/681e47d5c111c61182ce1827 -> /api/prescriptions/681e47d5c111c61182ce1827"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/admin/doctor-schedules/68147835aacd57d3fae41538 -> /api/admin/doctor-schedules/68147835aacd57d3fae41538"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/admin/doctor-schedules/68147835aacd57d3fae41538 -> /api/admin/doctor-schedules/68147835aacd57d3fae41538"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-20 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-20"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-16 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-16"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-17 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-17"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-13 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-13"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05/available-slots/2025-05-15 -> /api/schedules/schedule/681de48733ff08898fad5f05/available-slots/2025-05-15"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/admin/doctor-schedules/681de5e12dad6087e13348bc -> /api/admin/doctor-schedules/681de5e12dad6087e13348bc"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/admin/doctor-schedules/68147835aacd57d3fae41538 -> /api/admin/doctor-schedules/68147835aacd57d3fae41538"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Monday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Monday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-13 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-13"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/admin/doctor-schedules/68147835aacd57d3fae41538 -> /api/admin/doctor-schedules/68147835aacd57d3fae41538"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Wednesday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Wednesday"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-21 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-21"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"PUT /api/admin/doctor-schedules/68147835aacd57d3fae41538 -> /api/admin/doctor-schedules/68147835aacd57d3fae41538"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Thursday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Thursday"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"PUT /api/admin/doctor-schedules/68147835aacd57d3fae41538 -> /api/admin/doctor-schedules/68147835aacd57d3fae41538"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"PUT /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969 -> /api/schedules/schedule/68171b7c6e99ded4510f4969"}
+{"level":"info","message":"GET /api/schedules/schedule/68171b7c6e99ded4510f4969/available-slots/2025-05-31 -> /api/schedules/schedule/68171b7c6e99ded4510f4969/available-slots/2025-05-31"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05/available-slots/2025-05-21 -> /api/schedules/schedule/681de48733ff08898fad5f05/available-slots/2025-05-21"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-12"}
+{"level":"info","message":"POST /api/appointments/create -> /api/appointments/create"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"PATCH /api/appointments/681f058e5084f565651174da/status -> /api/appointments/681f058e5084f565651174da/status"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"POST /api/medical-records -> /api/medical-records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"POST /api/prescriptions -> /api/prescriptions"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/681f066c5084f5656511755a -> /api/prescriptions/681f066c5084f5656511755a"}
+{"level":"info","message":"GET /api/prescriptions/681f066c5084f5656511755a/download -> /api/prescriptions/681f066c5084f5656511755a/download"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=month"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"PUT /api/admin/users/681472c8b9f209971a5fc438 -> /api/admin/users/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"PUT /api/admin/users/681471f12d46004ebdf7f602 -> /api/admin/users/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Thursday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Thursday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Thursday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Thursday"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/auth/me -> /api/auth/me"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/auth/me -> /api/auth/me"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/schedules/schedule/681473da77fa663b343dfaf0 -> /api/schedules/schedule/681473da77fa663b343dfaf0"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-28 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-28"}
+{"level":"info","message":"POST /api/appointments/create -> /api/appointments/create"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1121:18)\n    at afterConnectMultiple (node:net:1688:7)"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/doctors -> /api/doctors"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-06-01 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-06-01"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Tuesday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Sunday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/doctors -> /api/doctors"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-11"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/appointments/create -> /api/appointments/create"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"PATCH /api/appointments/681f7bca708f07beca0d16b9/status -> /api/appointments/681f7bca708f07beca0d16b9/status"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"POST /api/medical-records -> /api/medical-records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"POST /api/prescriptions -> /api/prescriptions"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Saturday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Saturday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Saturday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Saturday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/681f066c5084f5656511755a -> /api/prescriptions/681f066c5084f5656511755a"}
+{"level":"info","message":"GET /api/prescriptions/681f066c5084f5656511755a/download -> /api/prescriptions/681f066c5084f5656511755a/download"}
+{"level":"info","message":"GET /api/prescriptions/681f7c88708f07beca0d1723 -> /api/prescriptions/681f7c88708f07beca0d1723"}
+{"level":"info","message":"GET /api/medical-records/patient/681471f12d46004ebdf7f602 -> /api/medical-records/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/medical-records/patient/681471f12d46004ebdf7f602 -> /api/medical-records/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/medical-records/681f7c55708f07beca0d16eb -> /api/medical-records/681f7c55708f07beca0d16eb"}
+{"level":"info","message":"GET /api/doctors -> /api/doctors"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-24 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-24"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"PATCH /api/appointments/681f3250eadb30f266b2bdf2/cancel -> /api/appointments/681f3250eadb30f266b2bdf2/cancel"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/medical-records/patient/681471f12d46004ebdf7f602 -> /api/medical-records/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/medical-records/patient/681471f12d46004ebdf7f602 -> /api/medical-records/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 229"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Friday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Friday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681de48733ff08898fad5f05/Monday -> /api/schedules/schedule/681de48733ff08898fad5f05/Monday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681de48733ff08898fad5f05/Monday -> /api/schedules/schedule/681de48733ff08898fad5f05/Monday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"POST /api/prescriptions -> /api/prescriptions"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681de48733ff08898fad5f05 -> /api/doctors/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/doctors/681de48733ff08898fad5f05 -> /api/doctors/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/doctors/681de48733ff08898fad5f05 -> /api/doctors/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681de48733ff08898fad5f05 -> /api/doctors/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681de48733ff08898fad5f05 -> /api/doctors/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/doctors/681de48733ff08898fad5f05 -> /api/doctors/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/schedules/schedule/681de48733ff08898fad5f05 -> /api/schedules/schedule/681de48733ff08898fad5f05"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 228"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/doctors -> /api/doctors"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 227"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-20 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-20"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 227"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/appointments/create -> /api/appointments/create"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-27 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-27"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 227"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/appointments/create -> /api/appointments/create"}
+{"level":"info","message":"GET /api/medical-records/patient/6818c43e5ad518f7067080fb -> /api/medical-records/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/medical-records/patient/6818c43e5ad518f7067080fb -> /api/medical-records/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/medical-records/681deb292dad6087e1334b15 -> /api/medical-records/681deb292dad6087e1334b15"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb -> /api/prescriptions/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb/active -> /api/prescriptions/patient/6818c43e5ad518f7067080fb/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb -> /api/prescriptions/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb/active -> /api/prescriptions/patient/6818c43e5ad518f7067080fb/active"}
+{"level":"info","message":"GET /api/prescriptions/6820ae3983efd229feed122e/download -> /api/prescriptions/6820ae3983efd229feed122e/download"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb -> /api/prescriptions/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb/active -> /api/prescriptions/patient/6818c43e5ad518f7067080fb/active"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb -> /api/prescriptions/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb/active -> /api/prescriptions/patient/6818c43e5ad518f7067080fb/active"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb -> /api/prescriptions/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb/active -> /api/prescriptions/patient/6818c43e5ad518f7067080fb/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb -> /api/prescriptions/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb/active -> /api/prescriptions/patient/6818c43e5ad518f7067080fb/active"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb -> /api/prescriptions/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb/active -> /api/prescriptions/patient/6818c43e5ad518f7067080fb/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb/active -> /api/prescriptions/patient/6818c43e5ad518f7067080fb/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/6818c43e5ad518f7067080fb -> /api/prescriptions/patient/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"PATCH /api/appointments/6820ae8183efd229feed12e2/status -> /api/appointments/6820ae8183efd229feed12e2/status"}
+{"level":"info","message":"PATCH /api/appointments/6820ae8183efd229feed12e2/notes -> /api/appointments/6820ae8183efd229feed12e2/notes"}
+{"level":"info","message":"PATCH /api/appointments/6820ae8183efd229feed12e2/update-schedule -> /api/appointments/6820ae8183efd229feed12e2/update-schedule"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/patients -> /api/admin/patients"}
+{"level":"info","message":"GET /api/admin/patients -> /api/admin/patients"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"POST /api/auth/forgotpassword -> /api/auth/forgotpassword"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"POST /api/auth/forgotpassword -> /api/auth/forgotpassword"}
+{"level":"info","message":"POST /api/auth/forgotpassword -> /api/auth/forgotpassword"}
+{"level":"info","message":"POST /api/auth/forgotpassword -> /api/auth/forgotpassword"}
+{"level":"info","message":"POST /api/auth/forgotpassword -> /api/auth/forgotpassword"}
+{"level":"info","message":"POST /api/auth/forgotpassword -> /api/auth/forgotpassword"}
+{"level":"info","message":"POST /api/auth/resetpassword/15c6ddcd642a2fe10ac7e48325bd1ad25e76a6b0 -> /api/auth/resetpassword/15c6ddcd642a2fe10ac7e48325bd1ad25e76a6b0"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"API Gateway running on port 4000"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PATCH /api/schedules/schedule/681472c8b9f209971a5fc438/Saturday -> /api/schedules/schedule/681472c8b9f209971a5fc438/Saturday"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"PATCH /api/appointments/681c936f461c93914686b0c6/status -> /api/appointments/681c936f461c93914686b0c6/status"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"POST /api/medical-records -> /api/medical-records"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/appointments/doctor-appointments -> /api/appointments/doctor-appointments"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"GET /api/users/patients -> /api/users/patients"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/medical-records/doctor/records -> /api/medical-records/doctor/records"}
+{"level":"info","message":"POST /api/prescriptions -> /api/prescriptions"}
+{"level":"info","message":"GET /api/prescriptions/doctor/prescriptions -> /api/prescriptions/doctor/prescriptions"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/doctors/681472c8b9f209971a5fc438 -> /api/doctors/681472c8b9f209971a5fc438"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 232"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/auth/google -> /api/auth/google"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/appointments/my-appointments -> /api/appointments/my-appointments"}
+{"level":"info","message":"GET /api/doctors -> /api/doctors"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-31 -> /api/schedules/schedule/681472c8b9f209971a5fc438/available-slots/2025-05-31"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 239"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"POST /api/appointments/create -> /api/appointments/create"}
+{"level":"info","message":"GET /api/medical-records/patient/681471f12d46004ebdf7f602 -> /api/medical-records/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/medical-records/patient/681471f12d46004ebdf7f602 -> /api/medical-records/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/medical-records/6820c5d62babfae4bf8c8984 -> /api/medical-records/6820c5d62babfae4bf8c8984"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602 -> /api/prescriptions/patient/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/prescriptions/patient/681471f12d46004ebdf7f602/active -> /api/prescriptions/patient/681471f12d46004ebdf7f602/active"}
+{"level":"info","message":"GET /api/prescriptions/6820c6012babfae4bf8c89be/download -> /api/prescriptions/6820c6012babfae4bf8c89be/download"}
+{"level":"info","message":"GET /api/prescriptions/6820c6012babfae4bf8c89be -> /api/prescriptions/6820c6012babfae4bf8c89be"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /messages -> /messages"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"PUT /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"GET /api/users/profile -> /api/users/profile"}
+{"level":"info","message":"POST /api/auth/login -> /api/auth/login"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"PUT /api/schedules/schedule/681472c8b9f209971a5fc438 -> /api/schedules/schedule/681472c8b9f209971a5fc438"}
+{"level":"info","message":"Token forwarded: true"}
+{"level":"info","message":"Token length: 229"}
+{"level":"info","message":"Token starts with: eyJhbGciOi"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"PATCH /api/appointments/6820c62c2babfae4bf8c8a4a/status -> /api/appointments/6820c62c2babfae4bf8c8a4a/status"}
+{"level":"info","message":"PATCH /api/appointments/6820c62c2babfae4bf8c8a4a/notes -> /api/appointments/6820c62c2babfae4bf8c8a4a/notes"}
+{"level":"info","message":"PATCH /api/appointments/6820c62c2babfae4bf8c8a4a/update-schedule -> /api/appointments/6820c62c2babfae4bf8c8a4a/update-schedule"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"DELETE /api/admin/appointments/681f3250eadb30f266b2bdf2 -> /api/admin/appointments/681f3250eadb30f266b2bdf2"}
+{"level":"info","message":"GET /api/admin/appointments -> /api/admin/appointments"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"PUT /api/admin/users/681de48733ff08898fad5f05 -> /api/admin/users/681de48733ff08898fad5f05"}
+{"level":"info","message":"GET /api/admin/users -> /api/admin/users"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctors -> /api/admin/doctors"}
+{"level":"info","message":"GET /api/admin/doctor-schedules -> /api/admin/doctor-schedules"}
+{"level":"info","message":"GET /api/admin/patients -> /api/admin/patients"}
+{"level":"info","message":"GET /api/admin/patients -> /api/admin/patients"}
+{"level":"info","message":"GET /api/admin/patients/681471f12d46004ebdf7f602 -> /api/admin/patients/681471f12d46004ebdf7f602"}
+{"level":"info","message":"PUT /api/admin/patients/681471f12d46004ebdf7f602 -> /api/admin/patients/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/admin/patients -> /api/admin/patients"}
+{"level":"info","message":"GET /api/admin/patients/681471f12d46004ebdf7f602 -> /api/admin/patients/681471f12d46004ebdf7f602"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=week"}
+{"level":"info","message":"GET /api/admin/analytics -> /api/admin/analytics?timeRange=month"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/stats -> /api/admin/stats"}
+{"level":"info","message":"GET /api/admin/patients -> /api/admin/patients"}
+{"level":"info","message":"GET /api/admin/patients -> /api/admin/patients"}
+{"level":"info","message":"GET /api/admin/patients/6818c43e5ad518f7067080fb -> /api/admin/patients/6818c43e5ad518f7067080fb"}
+{"level":"info","message":"POST /api/auth/logout -> /api/auth/logout"}
+{"level":"info","message":"POST /api/auth/forgotpassword -> /api/auth/forgotpassword"}
