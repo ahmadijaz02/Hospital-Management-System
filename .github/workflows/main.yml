@@ -1,0 +1,134 @@
+name: Hospital Management System CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+        service: [api-gateway, auth-service, chat-service, server]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: ${{ matrix.service }}/package-lock.json
+    
+    - name: Install dependencies
+      run: npm ci
+      working-directory: ${{ matrix.service }}
+    
+    - name: Run tests
+      run: npm test
+      working-directory: ${{ matrix.service }}
+
+  test-python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9]
+        service: [schedule-service]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      working-directory: ${{ matrix.service }}
+    
+    - name: Run tests
+      run: pytest
+      working-directory: ${{ matrix.service }}
+
+  build:
+    needs: [test, test-python]
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+    
+    - name: Login to DockerHub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+    
+    - name: Build and push API Gateway
+      uses: docker/build-push-action@v4
+      with:
+        context: ./api-gateway
+        push: true
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/hms-api-gateway:${{ github.sha }}
+    
+    - name: Build and push Auth Service
+      uses: docker/build-push-action@v4
+      with:
+        context: ./auth-service
+        push: true
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/hms-auth-service:${{ github.sha }}
+    
+    - name: Build and push Chat Service
+      uses: docker/build-push-action@v4
+      with:
+        context: ./chat-service
+        push: true
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/hms-chat-service:${{ github.sha }}
+    
+    - name: Build and push Server
+      uses: docker/build-push-action@v4
+      with:
+        context: ./server
+        push: true
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/hms-server:${{ github.sha }}
+    
+    - name: Build and push Schedule Service
+      uses: docker/build-push-action@v4
+      with:
+        context: ./schedule-service
+        push: true
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/hms-schedule-service:${{ github.sha }}
+    
+    - name: Build and push Client
+      uses: docker/build-push-action@v4
+      with:
+        context: ./client
+        push: true
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/hms-client:${{ github.sha }}
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Deploy to production
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: |
+          cd /path/to/deployment
+          docker-compose pull
+          docker-compose up -d
